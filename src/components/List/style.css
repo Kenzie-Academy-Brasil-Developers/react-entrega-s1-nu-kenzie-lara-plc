@@ -1,0 +1,134 @@
+:root{
+    --primary: #FD377E;
+    --primary-tone:#E34981;
+    --secondary:#03B898;
+    --grey-4: #212529;
+    --grey-3: #868E96;
+    --grey-2: #E9ECEF;
+    --grey-1: #F8F9FA;
+}
+
+.Title1{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-size: 28px;
+}
+
+.ListTitle2{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+    color: var(--grey-4);
+}
+
+.ListTitle3{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-size: 16px;
+    color: var(--grey-4);
+    margin-left: 5%;
+    margin-right:6%;
+}
+
+.Title4{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-size: 12px;
+}
+
+.Headline{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.Body{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+
+.ListWrapper{
+    margin-left: 2%;
+    margin-top: 5%;
+
+    height: 100%;
+    width: 35%;
+}
+
+.ListHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FilterWrapper{
+
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+.FilterWrapper button{
+    height: 35px;
+    width: -moz-fit-content;
+    width: fit-content;
+
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    color: var(--grey-3);
+
+    margin: 0;
+    padding: 3%;
+
+    text-align: center;
+}
+
+
+.FilterWrapper button:hover{
+    background-color: var(--grey-4);
+    color: var(--grey-1);
+    cursor: pointer;
+}
+
+.FilterWrapper button:focus{
+    outline: none;
+    background-color: var(--primary);
+    color: var(--grey-1);
+}
+
+
+.CardWrapper{
+    height: 88%;
+    width: 92%;
+    margin-left: 5%;
+    overflow-x: scroll;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.ListMockCard{
+    display: flex;
+    flex-direction: column;
+    border-left: 6px solid #dddddd;
+    border-radius: 6px;
+    height: 60px;
+    background-color: #f0f0f0;
+    justify-content: center;
+    margin-bottom: 3%;
+}
+
+.ListMockDesc1{
+margin-left: 9%;
+ height: 25%;
+ width: 80%;
+ background-color: #dddddd;
+}
+
+.ListMockDesc2{
+    margin-left: 9%;
+    margin-top: 2%;
+    height: 25%;
+    width: 65%;
+    background-color: #dddddd;
+   }

@@ -1,0 +1,146 @@
+:root{
+    --primary: #FD377E;
+    --primary-tone:#E34981;
+    --secondary:#03B898;
+    --grey-4: #212529;
+    --grey-3: #868E96;
+    --grey-2: #E9ECEF;
+    --grey-1: #F8F9FA;
+}
+
+.Title1{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-size: 28px;
+}
+
+.Title2{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-size: 24px;
+}
+
+.Title3{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-size: 20px;
+}
+
+.Title4{
+    font-family: 'Nunito', sans-serif;
+    font-style: bold;
+    font-size: 12px;
+}
+
+.Headline{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+}
+
+.FormBody{
+    font-family: 'Nunito', sans-serif;
+    font-size: 12px;
+}
+
+.FormWrapper{
+border: 1px solid var(--grey-2);
+border-radius: 8px;
+box-shadow:3px 3px 5px 2px rgba(134, 142, 150, 0.075),-3px -3px 5px 2px rgba(134, 142, 150, 0.075)  ;
+
+height: 60%;
+width: 25%;
+margin-left: 19.2%;
+margin-top: 5%;
+
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+}
+
+.FormWrapper p{
+    margin-left: 10%;
+}
+
+.Descript{
+    color: var(--grey-3);
+    margin: 0%;
+}
+
+.FormWrapper input, button{
+    border: 1px solid var(--grey-2);
+    width: 80%;
+    height: 12%;
+    margin: 3px 3px 3px 10%;
+
+    background-color: #f0f0f0;
+    border-radius: 6px;
+}
+
+.FormWrapper input:hover{
+    border:1px solid var(--grey-3);
+}
+.FormWrapper input:focus{
+    outline: solid  var(--grey-3) 0.5px;
+    border:1px solid var(--grey-3);
+    background: var(--grey-1);
+}
+
+.ValorETipo{
+    display: flex;
+    flex-direction: row;
+    height: 30%;
+}
+
+.Valor, .Tipo{
+    display: flex;
+    flex-direction: column;
+}
+
+.Valor input{
+    width:80%;
+    height:35%;
+    margin-left: 25%;
+    margin-top: 0;
+}
+
+.Valor p{
+    margin-left: 25%;
+}
+
+.Tipo p{
+    width: 100%;
+    margin-left: 45%;
+}
+.Tipo select{
+    background-color: #f0f0f0;
+    width:120%;
+    height: 40%;
+    margin-left: 45%;
+
+    border: 1px solid var(--grey-2);
+    border-radius: 8px;
+    color: var(--grey-3);
+    text-align: center;
+}
+
+.Tipo select:hover{
+    border: 1px solid var(--grey-3);
+    cursor: pointer;
+}
+
+
+.Tipo select>option{
+    background-color: var(--grey-1);
+}
+
+.FormWrapper button{
+    background-color: var(--primary);
+    color: var(--grey-1);
+    font-size: smaller;
+    font-weight: 600;
+}
+
+.FormWrapper button:hover{
+    background-color: var(--primary-tone);
+    cursor: pointer;
+}

@@ -1,0 +1,22 @@
+html, body, #root{
+    height: 100%;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width:100%;
+}
+
+.App-header{
+    z-index: 2;
+    width:100%;
+    height: 1%;
+}
+
+.App-content{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: row;
+}
